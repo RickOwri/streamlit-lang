@@ -3,3 +3,4 @@ pexpect
 langchain
 openai
 wikipedia
+python-dotenv
