@@ -1,0 +1,23 @@
+
+image: docker:latest
+
+stages:
+  - test
+  - build
+  - deploy
+
+flake8:
+  stage: test
+  script:
+    - pip install flake8
+    - flake8 --exclude=migrations .
+
+build:
+  stage: build
+  script:
+    - docker build -t myapp:latest .
+
+deploy:
+  stage: deploy
+  script:
+    - docker run -p 8501:8501 myapp:latest

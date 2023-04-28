@@ -1,0 +1,5 @@
+streamlit
+pexpect
+langchain
+openai
+wikipedia
