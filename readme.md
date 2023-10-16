@@ -62,13 +62,4 @@ We use Docker and GitLab for Flake8 testing to ensure that the code adheres to c
 
 3. Any code quality issues found by Flake8 will be reported in GitLab's CI/CD pipeline results.
 
-## Contact
-
-If you have any questions, suggestions, or would like to learn more about the Langchain App, feel free to reach out to:
-
-- DefaultUser (Coder)
-- Email: [Your Email Address]
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [Your GitHub Profile]
-
 Thank you for exploring the Langchain App! We hope you find it useful and informative. Happy searching for YouTube videos on your specific subjects in different languages!
